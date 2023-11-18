@@ -1,2 +1,19 @@
-# Watch_Detection
-This project is designed for real-time object detection using the YOLO (You Only Look Once) algorithm. The script utilizes the Ultralytics library, which is an extension of the popular YOLO framework, to perform object detection on live webcam footage.
+# Watch Detection Project
+
+## Overview
+
+This project focuses on real-time watch detection using the YOLO (You Only Look Once) algorithm, implemented with the Ultralytics library. The detection model is trained on a custom dataset containing images of watches.
+
+## Project Structure
+
+The project directory structure is organized as follows:
+
+📁 custom_detection
+│
+├── configurations.yaml
+├── main.py
+├── detect.py
+│
+└── 📁 images
+├── 🖼️ Train Images
+└── 🖼️ Validation Images
