@@ -1,0 +1,7 @@
+path: C:\Users\hp\PycharmProjects\cosutom detection
+train: images
+val: images
+
+
+names:
+  0: watch
