@@ -17,3 +17,13 @@ The project directory structure is organized as follows:
 └── 📁 images
 ├── 🖼️ Train Images
 └── 🖼️ Validation Images
+
+**`configurations.yaml`**: Configuration file specifying the dataset paths, class names, and other training parameters.
+- **`main.py`**: Python script for real-time watch detection using the pre-trained YOLO model.
+- **`detect.py`**: Python script for detecting watches in live webcam footage.
+- **`images`**: Directory containing training and validation images.
+
+## Customization
+
+Adjust training parameters in configurations.yaml for custom datasets and training configurations.
+Modify class names and IDs in configurations.yaml to match the classes in your dataset.
